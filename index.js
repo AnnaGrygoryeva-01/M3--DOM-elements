@@ -19,4 +19,10 @@ document.body.append(sectionGraphicDesign);
 
 // 2. За допомогою DOM отримати посилання на існуючий на сторінці елемент (div або section, який заздалегідь має існувати в розмітці і містити якийсь тексту) та змінити йому колір тла на фіолетовий, а колір тексту на білий.
 
+const sectionDigitalMarketing = document.querySelector(
+  ".sectionDigitalMarketing",
+);
+sectionDigitalMarketing.style.backgroundColor = "purple";
+sectionDigitalMarketing.style.color = "white";
+
 // 3. За допомогою prompt отримати у користувача його ім’я, після чого створити і відобразити на сторінці елемент <h1>, який містить текст “Вітаю, (введене користувачем ім’я)”
